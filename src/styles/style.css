@@ -7,9 +7,9 @@
     text-decoration: none;
 }
 
-body {
-    font-size: 100%;
+body {    font-size: 100%;
     background: linear-gradient(68.15deg, #252424 40%, #5f5555 60%);
+
 }
 
 .titulo-meu-nome, .titulo-meu-nome-subtitulo {
@@ -31,7 +31,7 @@ body {
     font-family: 'Yellowtail', sans-serif;
     color: #c1c1c1f7;
     font-weight: 400;
-    font-size: 28px;
+    font-size: 24px;
     padding: 5px;
 
 }
@@ -56,7 +56,7 @@ section {
     box-shadow: 2px 2px 4px #000000;
     padding: 30px;
     margin: 0 auto;
-    width: 800px;
+    width: 50%;
     background-color:darkgray;
     text-align: center;  
     margin-bottom: 20px;
@@ -85,22 +85,25 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40px;
+    width: 30%;
     margin: 0 auto;
     gap: 12px;
 }
 
 .projeto{
-    width: 400px;
+    width: 50%;
     border-radius: 10px;
     box-shadow: black 2px 2px 4px;
 }
 
 .footer-menu {
+    text-align: center;
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 12px;
     padding: 1px;
+    color: #FFFFFF;
+    font-size: 10px;
 }
 
