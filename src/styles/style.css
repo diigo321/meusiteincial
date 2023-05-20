@@ -7,17 +7,20 @@
     text-decoration: none;
 }
 
-body {    font-size: 100%;
+body {
+    font-size: 100%;
     background: linear-gradient(68.15deg, #252424 40%, #5f5555 60%);
 
 }
 
-.titulo-meu-nome, .titulo-meu-nome-subtitulo {
+.titulo-meu-nome,
+.titulo-meu-nome-subtitulo {
     flex-direction: row;
     align-items: center;
     display: flex;
     justify-content: space-around;
 }
+
 .titulo-meu-nome {
     font-family: 'Poppins', sans-serif;
     color: rgb(29, 107, 234);
@@ -57,8 +60,8 @@ section {
     padding: 30px;
     margin: 0 auto;
     width: 50%;
-    background-color:darkgray;
-    text-align: center;  
+    background-color: darkgray;
+    text-align: center;
     margin-bottom: 20px;
 }
 
@@ -67,11 +70,13 @@ h3 {
     color: #FFF2E7;
     font-size: 18px;
     padding: 10px;
-    text-align: center;      
+    text-align: center;
     border-radius: solid 100px;
 }
 
-.info, p, rodape {
+.info,
+p,
+rodape {
     font-family: 'Sarala', sans-serif;
     color: #FFF2E7;
     font-size: 18px;
@@ -84,11 +89,11 @@ h3 {
 
 }
 
-.info-sobre-mim{
+.info-sobre-mim {
     padding: 10px;
 }
 
-.imagem-habilidade{
+.imagem-habilidade {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -97,7 +102,7 @@ h3 {
     gap: 12px;
 }
 
-.projeto{
+.projeto {
     width: 40%;
     border-radius: 10px;
     box-shadow: black 2px 2px 4px;
@@ -118,4 +123,3 @@ h3 {
     color: #FFFFFF;
     font-size: 10px;
 }
-
