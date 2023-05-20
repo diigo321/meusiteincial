@@ -37,15 +37,16 @@ body {
 }
 
 .imagem-rosto {
-    display: block;
+    display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-around;
     width: 250px;
     height: 250px;
     border-radius: 100%;
     margin: 0 auto;
     padding: 24px;
-    justify-content: space-around;
+
 
 }
 
@@ -66,8 +67,6 @@ h3 {
     color: #FFF2E7;
     font-size: 18px;
     padding: 10px;
-    align-items: center;
-    flex-direction: center;
     text-align: center;      
     border-radius: solid 100px;
 }
@@ -91,7 +90,7 @@ h3 {
     gap: 12px;
 }
 
-.projetopoke{
+.projeto{
     width: 400px;
     border-radius: 10px;
     box-shadow: black 2px 2px 4px;
