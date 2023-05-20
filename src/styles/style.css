@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&family=Righteous&family=Yellowtail&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #252424 40%, #5f5555 60%);
+}
+
+.titulo-meu-nome, .titulo-meu-nome-subtitulo {
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.titulo-meu-nome {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(29, 107, 234);
+    font-weight: 900;
+    font-size: 24px;
+    text-shadow: 2px 2px 4px #000000;
+    margin-top: 50px
+}
+
+.titulo-meu-nome-subtitulo {
+    font-family: 'Yellowtail', sans-serif;
+    color: #c1c1c1f7;
+    font-weight: 400;
+    font-size: 28px;
+    padding: 5px;
+
+}
+
+.imagem-rosto {
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    margin: 0 auto;
+    padding: 24px;
+    justify-content: space-around;
+
+}
+
+section {
+    border: solid 3px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #000000;
+    padding: 30px;
+    margin: 0 auto;
+    width: 800px;
+    background-color:darkgray;
+    text-align: center;  
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-size: 18px;
+    padding: 10px;
+    align-items: center;
+    flex-direction: center;
+    text-align: center;      
+    border-radius: solid 100px;
+}
+
+.info, p, rodape {
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-size: 18px;
+}
+
+.info-sobre-mim{
+    padding: 10px;
+}
+
+.imagem-habilidade{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    margin: 0 auto;
+    gap: 12px;
+}
+
+.projetopoke{
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: black 2px 2px 4px;
+}
+
+.footer-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 1px;
+}
+
