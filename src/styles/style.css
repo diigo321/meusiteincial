@@ -63,6 +63,7 @@ section {
     background-color: darkgray;
     text-align: center;
     margin-bottom: 20px;
+    min-width: 351px;
 }
 
 h3 {
@@ -122,4 +123,10 @@ rodape {
     padding: 1px;
     color: #FFFFFF;
     font-size: 10px;
+}
+
+@media (max-width:720px) {
+    /* section {
+        width: 90%;
+    } */
 }
