@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&family=Righteous&family=Yellowtail&display=swap');
 
+
 * {
     margin: 0;
     padding: 0;
@@ -9,8 +10,26 @@
 
 body {
     font-size: 100%;
-    background: linear-gradient(68.15deg, #252424 40%, #5f5555 60%);
+    background-image: linear-gradient(#000 45%, #ffff 65%);
 
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.nav-menu a {
+    background-color: darkgray;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px #ffffff;
+    padding: 10px;
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(245, 229, 229);
+    border: 1px solid black;
 }
 
 .titulo-meu-nome,
@@ -19,6 +38,7 @@ body {
     align-items: center;
     display: flex;
     justify-content: space-around;
+    line-height: 0.9;
 }
 
 .titulo-meu-nome {
@@ -114,6 +134,10 @@ rodape {
     margin-bottom: 10px;
 }
 
+footer {
+    background-color: black
+}
+
 .footer-menu {
     text-align: center;
     display: flex;
@@ -125,8 +149,10 @@ rodape {
     font-size: 10px;
 }
 
+.footer-menu .imagem{
+    box-shadow: white 2px 2px 4px;
+    border-radius: 100%;
+}
+
 @media (max-width:720px) {
-    /* section {
-        width: 90%;
-    } */
 }
