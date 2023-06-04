@@ -14,22 +14,29 @@ body {
 
 }
 
+.box-menu {
+    width: 60%;
+    justify-content: flex-end;
+    margin-left: 39%;
+}
+
 .nav-menu {
     display: flex;
-    justify-content: end;
-    margin-top: 10px;
-    padding: 20px;
+    justify-content: space-evenly;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.mouse:hover{
+    background-color: gray;
 }
 
 .nav-menu a {
-    background-color: darkgray;
     border-radius: 5px;
-    box-shadow: 2px 2px 4px #ffffff;
     padding: 10px;
     font-size: 10px;
     font-family: 'Poppins', sans-serif;
     color: rgb(245, 229, 229);
-    border: 1px solid black;
 }
 
 .titulo-meu-nome,
@@ -69,11 +76,9 @@ body {
     border-radius: 100%;
     margin: 0 auto;
     padding: 24px;
-
-
 }
 
-section {
+.box {
     border: solid 3px;
     border-radius: 10px;
     box-shadow: 2px 2px 4px #000000;
@@ -114,6 +119,10 @@ rodape {
     padding: 10px;
 }
 
+li {
+    list-style-type: none;
+}
+
 .imagem-habilidade {
     display: flex;
     align-items: center;
@@ -149,10 +158,9 @@ footer {
     font-size: 10px;
 }
 
-.footer-menu .imagem{
+.footer-menu .imagem {
     box-shadow: white 2px 2px 4px;
     border-radius: 100%;
 }
 
-@media (max-width:720px) {
-}
+@media (max-width:720px) {}
